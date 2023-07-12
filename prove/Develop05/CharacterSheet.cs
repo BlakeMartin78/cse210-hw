@@ -40,14 +40,14 @@ public class CharacterSheet{
 
 
                 case "ChecklistGoal":
-                    PerpetualGoal tempGoal2 = new PerpetualGoal();
+                    ChecklistGoal tempGoal2 = new ChecklistGoal();
                     tempGoal2.LoadFromSave(parts);
                     _goals.Add(tempGoal2);
                 break;
 
 
                 case "SimpleGoal":
-                    PerpetualGoal tempGoal3 = new PerpetualGoal();
+                    SimpleGoal tempGoal3 = new SimpleGoal();
                     tempGoal3.LoadFromSave(parts);
                     _goals.Add(tempGoal3);
                 break;

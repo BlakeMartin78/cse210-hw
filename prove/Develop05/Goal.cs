@@ -3,11 +3,11 @@ public abstract class Goal
     protected int _pointValue;
     protected string _name;
     protected string _description;
-    protected bool _completed = false;
+    protected bool _completed;
 
     public Goal()
     {
-
+        _completed = false;
     }
 
     public virtual string DisplayGoal()

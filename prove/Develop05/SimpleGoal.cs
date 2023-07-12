@@ -21,6 +21,7 @@ public class SimpleGoal : Goal
     }
     public override int CompleteGoal()
     {
+        //Console.WriteLine("here");
         if (_completed == false){
         _completed = true;
         return _pointValue;

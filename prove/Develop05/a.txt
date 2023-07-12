@@ -1,0 +1,3 @@
+points|||900
+SimpleGoal|||Pass Class|||Get an A in every class|||500|||True
+ChecklistGoal|||Foundations 4|||PLEEEEAAASESEE|||50|||True|||4|||4|||250
